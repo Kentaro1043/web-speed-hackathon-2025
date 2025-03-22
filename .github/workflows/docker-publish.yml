@@ -40,3 +40,5 @@ jobs:
           context: .
           push: true
           tags: ${{ env.REGISTRY }}/${{ env.REPO }}:latest
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
