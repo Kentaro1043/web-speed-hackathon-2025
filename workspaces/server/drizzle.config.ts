@@ -6,7 +6,7 @@ const require = createRequire(import.meta.url);
 
 export default defineConfig({
   dbCredentials: {
-    url: 'file:./database.sqlite',
+    url: 'file:./database_big.sqlite',
   },
   dialect: 'turso',
   out: './migrations',
